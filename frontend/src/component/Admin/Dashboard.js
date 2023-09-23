@@ -5,9 +5,9 @@ import { Typography } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { getAdminProduct } from "../../actions/productAction";
-import MetaData from "../layout/MetaData";
-import 'chart.js/auto';
-import { Chart } from 'react-chartjs-2';
+import MetaData from "../layout/MetaData"
+import { Chart as ChartJS } from 'chart.js/auto'
+import { Chart }            from 'react-chartjs-2'
 import { getAllOrders } from "../../actions/orderAction.js";
 import { getAllUsers } from "../../actions/userAction.js";
 const Dashboard = () => {

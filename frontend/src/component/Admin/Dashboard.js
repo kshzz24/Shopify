@@ -119,11 +119,11 @@ const Dashboard = () => {
         </div>
 
         <div className="lineChart">
-        <Line data={lineState} />
+          <ChartJS type="line" data={lineState} />
         </div>
 
         <div className="doughnutChart">
-        <Doughnut data={doughnutState} />
+          <ChartJS type="doughnut" data={doughnutState} />
         </div>
       </div>
     </div>
